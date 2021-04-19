@@ -1,0 +1,18 @@
+.modal{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+}
+.modal-dialog{
+    width: 400px;
+}
+.submit-btn{
+    width: 100%;
+}
+.modal-header{
+border-bottom: none;
+}
+@media screen and (max-width:776px){
+    .modal-dialog {
+        width: auto;
+        margin: 1.5rem;
+    }
+}
